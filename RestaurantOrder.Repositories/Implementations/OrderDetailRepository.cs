@@ -1,4 +1,5 @@
-﻿using MongoDB.Driver;
+﻿using MongoDB.Bson;
+using MongoDB.Driver;
 using RestaurantOrder.Data;
 using RestaurantOrder.Models;
 using RestaurantOrder.Repositories.Interfaces;
@@ -18,7 +19,7 @@ namespace RestaurantOrder.Repositories.Implementations
         }
 
         public OrderDetails AddNewOrder(OrderDetails orderDetails)
-        {
+        {                                        
             orderDetailsCollection.InsertOne(orderDetails);
             return orderDetails;
         }
@@ -41,7 +42,8 @@ namespace RestaurantOrder.Repositories.Implementations
 
         public OrderDetails GetOrderDetailsById(string id)
         {
-             return orderDetailsCollection.Find(id).FirstOrDefault();
+            var details = orderDetailsCollection.Find(a=>a.OrderDetailsId == id);
+            return details.First();
         }
 
         public OrderDetails? UpdateOrder(OrderDetails orderDetails)

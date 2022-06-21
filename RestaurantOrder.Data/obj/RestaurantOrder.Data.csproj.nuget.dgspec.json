@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Personal\\RestaurantOrderSystem\\RestaurantOrder.Data\\RestaurantOrder.Data.csproj": {}
+    "D:\\RestaurantOrderSystem\\RestaurantOrder.Data\\RestaurantOrder.Data.csproj": {}
   },
   "projects": {
-    "D:\\Personal\\RestaurantOrderSystem\\RestaurantOrder.Data\\RestaurantOrder.Data.csproj": {
+    "D:\\RestaurantOrderSystem\\RestaurantOrder.Data\\RestaurantOrder.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Personal\\RestaurantOrderSystem\\RestaurantOrder.Data\\RestaurantOrder.Data.csproj",
+        "projectUniqueName": "D:\\RestaurantOrderSystem\\RestaurantOrder.Data\\RestaurantOrder.Data.csproj",
         "projectName": "RestaurantOrder.Data",
-        "projectPath": "D:\\Personal\\RestaurantOrderSystem\\RestaurantOrder.Data\\RestaurantOrder.Data.csproj",
+        "projectPath": "D:\\RestaurantOrderSystem\\RestaurantOrder.Data\\RestaurantOrder.Data.csproj",
         "packagesPath": "C:\\Users\\abhishek.2138809\\.nuget\\packages\\",
-        "outputPath": "D:\\Personal\\RestaurantOrderSystem\\RestaurantOrder.Data\\obj\\",
+        "outputPath": "D:\\RestaurantOrderSystem\\RestaurantOrder.Data\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\abhishek.2138809\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -64,7 +64,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
         }
       }
     }

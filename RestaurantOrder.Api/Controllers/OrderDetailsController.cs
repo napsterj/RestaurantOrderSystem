@@ -1,18 +1,23 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using AutoMapper;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using RestaurantOrder.Api.Dtos;
+using RestaurantOrder.Models;
 using RestaurantOrder.Services;
 
 namespace RestaurantOrder.Api.Controllers
-{
-    [Route("api/[controller]")]
+{    
     [ApiController]
+    [Route("[controller]")]
     public class OrderDetailsController : ControllerBase
     {
         private readonly IOrderService _orderService;
-        public OrderDetailsController(IOrderService orderService)
+        private readonly IMapper _mapper;
+
+        public OrderDetailsController(IOrderService orderService, IMapper mapper)
         {
             _orderService = orderService;
+            _mapper = mapper;
         }
 
         [HttpGet("orders")]
@@ -22,7 +27,7 @@ namespace RestaurantOrder.Api.Controllers
         }
 
         [HttpGet("single/order/{orderDetailsId}")]
-        public ActionResult GetSpecificOrder([FromBody] string orderDetailsId)
+        public ActionResult GetSpecificOrder(string orderDetailsId)
         {
             var orderDetails = _orderService.GetOrder(orderDetailsId);
             if(orderDetails == null)
@@ -35,7 +40,13 @@ namespace RestaurantOrder.Api.Controllers
         [HttpPost("order/new")]
         public ActionResult PlaceNewOrder(OrderDetailsDTO orderDetailsDTO)
         {
-
+            OrderDetails orderDetails = _mapper.Map<OrderDetails>(orderDetailsDTO);
+            
+            if(orderDetails == null)
+            {
+                return NoContent();
+            }
+            return Ok(_orderService.AddNewOrder(orderDetails));
         }
         
     }

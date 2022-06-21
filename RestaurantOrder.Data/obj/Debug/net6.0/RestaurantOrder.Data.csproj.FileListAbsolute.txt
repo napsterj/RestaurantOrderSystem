@@ -1,0 +1,12 @@
+D:\RestaurantOrderSystem\RestaurantOrder.Data\bin\Debug\net6.0\RestaurantOrder.Data.deps.json
+D:\RestaurantOrderSystem\RestaurantOrder.Data\bin\Debug\net6.0\RestaurantOrder.Data.dll
+D:\RestaurantOrderSystem\RestaurantOrder.Data\bin\Debug\net6.0\RestaurantOrder.Data.pdb
+D:\RestaurantOrderSystem\RestaurantOrder.Data\obj\Debug\net6.0\RestaurantOrder.Data.csproj.AssemblyReference.cache
+D:\RestaurantOrderSystem\RestaurantOrder.Data\obj\Debug\net6.0\RestaurantOrder.Data.GeneratedMSBuildEditorConfig.editorconfig
+D:\RestaurantOrderSystem\RestaurantOrder.Data\obj\Debug\net6.0\RestaurantOrder.Data.AssemblyInfoInputs.cache
+D:\RestaurantOrderSystem\RestaurantOrder.Data\obj\Debug\net6.0\RestaurantOrder.Data.AssemblyInfo.cs
+D:\RestaurantOrderSystem\RestaurantOrder.Data\obj\Debug\net6.0\RestaurantOrder.Data.csproj.CoreCompileInputs.cache
+D:\RestaurantOrderSystem\RestaurantOrder.Data\obj\Debug\net6.0\RestaurantOrder.Data.dll
+D:\RestaurantOrderSystem\RestaurantOrder.Data\obj\Debug\net6.0\refint\RestaurantOrder.Data.dll
+D:\RestaurantOrderSystem\RestaurantOrder.Data\obj\Debug\net6.0\RestaurantOrder.Data.pdb
+D:\RestaurantOrderSystem\RestaurantOrder.Data\obj\Debug\net6.0\ref\RestaurantOrder.Data.dll

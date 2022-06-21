@@ -972,11 +972,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Personal\\RestaurantOrderSystem\\RestaurantOrder.Repositories\\RestaurantOrder.Repositories.csproj",
+      "projectUniqueName": "D:\\RestaurantOrderSystem\\RestaurantOrder.Repositories\\RestaurantOrder.Repositories.csproj",
       "projectName": "RestaurantOrder.Repositories",
-      "projectPath": "D:\\Personal\\RestaurantOrderSystem\\RestaurantOrder.Repositories\\RestaurantOrder.Repositories.csproj",
+      "projectPath": "D:\\RestaurantOrderSystem\\RestaurantOrder.Repositories\\RestaurantOrder.Repositories.csproj",
       "packagesPath": "C:\\Users\\abhishek.2138809\\.nuget\\packages\\",
-      "outputPath": "D:\\Personal\\RestaurantOrderSystem\\RestaurantOrder.Repositories\\obj\\",
+      "outputPath": "D:\\RestaurantOrderSystem\\RestaurantOrder.Repositories\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\abhishek.2138809\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -993,11 +993,11 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "D:\\Personal\\RestaurantOrderSystem\\RestaurantOrder.Data\\RestaurantOrder.Data.csproj": {
-              "projectPath": "D:\\Personal\\RestaurantOrderSystem\\RestaurantOrder.Data\\RestaurantOrder.Data.csproj"
+            "D:\\RestaurantOrderSystem\\RestaurantOrder.Data\\RestaurantOrder.Data.csproj": {
+              "projectPath": "D:\\RestaurantOrderSystem\\RestaurantOrder.Data\\RestaurantOrder.Data.csproj"
             },
-            "D:\\Personal\\RestaurantOrderSystem\\RestaurantOrder.Models\\RestaurantOrder.Models.csproj": {
-              "projectPath": "D:\\Personal\\RestaurantOrderSystem\\RestaurantOrder.Models\\RestaurantOrder.Models.csproj"
+            "D:\\RestaurantOrderSystem\\RestaurantOrder.Models\\RestaurantOrder.Models.csproj": {
+              "projectPath": "D:\\RestaurantOrderSystem\\RestaurantOrder.Models\\RestaurantOrder.Models.csproj"
             }
           }
         }
@@ -1032,7 +1032,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
       }
     }
   }

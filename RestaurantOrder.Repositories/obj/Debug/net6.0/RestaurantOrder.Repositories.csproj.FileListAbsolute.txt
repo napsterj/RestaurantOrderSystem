@@ -1,0 +1,17 @@
+D:\RestaurantOrderSystem\RestaurantOrder.Repositories\bin\Debug\net6.0\RestaurantOrder.Repositories.deps.json
+D:\RestaurantOrderSystem\RestaurantOrder.Repositories\bin\Debug\net6.0\RestaurantOrder.Repositories.dll
+D:\RestaurantOrderSystem\RestaurantOrder.Repositories\bin\Debug\net6.0\RestaurantOrder.Repositories.pdb
+D:\RestaurantOrderSystem\RestaurantOrder.Repositories\bin\Debug\net6.0\RestaurantOrder.Data.dll
+D:\RestaurantOrderSystem\RestaurantOrder.Repositories\bin\Debug\net6.0\RestaurantOrder.Models.dll
+D:\RestaurantOrderSystem\RestaurantOrder.Repositories\bin\Debug\net6.0\RestaurantOrder.Data.pdb
+D:\RestaurantOrderSystem\RestaurantOrder.Repositories\bin\Debug\net6.0\RestaurantOrder.Models.pdb
+D:\RestaurantOrderSystem\RestaurantOrder.Repositories\obj\Debug\net6.0\RestaurantOrder.Repositories.csproj.AssemblyReference.cache
+D:\RestaurantOrderSystem\RestaurantOrder.Repositories\obj\Debug\net6.0\RestaurantOrder.Repositories.GeneratedMSBuildEditorConfig.editorconfig
+D:\RestaurantOrderSystem\RestaurantOrder.Repositories\obj\Debug\net6.0\RestaurantOrder.Repositories.AssemblyInfoInputs.cache
+D:\RestaurantOrderSystem\RestaurantOrder.Repositories\obj\Debug\net6.0\RestaurantOrder.Repositories.AssemblyInfo.cs
+D:\RestaurantOrderSystem\RestaurantOrder.Repositories\obj\Debug\net6.0\RestaurantOrder.Repositories.csproj.CoreCompileInputs.cache
+D:\RestaurantOrderSystem\RestaurantOrder.Repositories\obj\Debug\net6.0\RestaurantOrder.Repositories.csproj.CopyComplete
+D:\RestaurantOrderSystem\RestaurantOrder.Repositories\obj\Debug\net6.0\RestaurantOrder.Repositories.dll
+D:\RestaurantOrderSystem\RestaurantOrder.Repositories\obj\Debug\net6.0\refint\RestaurantOrder.Repositories.dll
+D:\RestaurantOrderSystem\RestaurantOrder.Repositories\obj\Debug\net6.0\RestaurantOrder.Repositories.pdb
+D:\RestaurantOrderSystem\RestaurantOrder.Repositories\obj\Debug\net6.0\ref\RestaurantOrder.Repositories.dll

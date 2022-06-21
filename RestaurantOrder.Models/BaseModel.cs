@@ -10,7 +10,7 @@ namespace RestaurantOrder.Models
     public abstract class BaseModel
     {
         [BsonElement("createdDate")]
-        public DateTime CreatedDate { get; set; }
+        public DateTime CreatedDate { get { return DateTime.Now; } }
 
         [BsonElement("createdBy")]
         public string CreatedBy { get; set; }
